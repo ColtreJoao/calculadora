@@ -1,7 +1,4 @@
 while True:
-    # Solicita ao usuário que insira dois números
-    num1 = float(input("Digite o primeiro número: "))
-    num2 = float(input("Digite o segundo número: "))
     
     # Menu de opções
     print("\nEscolha a operação:")
@@ -12,6 +9,9 @@ while True:
     print("5 - Sair")
     
     opcao = int(input("Digite o número da operação desejada: "))
+    #Solicita ao usúario que insira dois números
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
     
     # Realiza a operação escolhida e imprime o resultado
     if opcao == 1:
